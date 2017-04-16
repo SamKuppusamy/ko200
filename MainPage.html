@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Main Page</title>
+    <link href="css/ko.css" rel="stylesheet" />
+    <script src="packages/knockout-3.4.2.js"></script>
+</head>
+
+<body>
+    <div class='koExample'>
+        <p>FirstName: <input data-bind='value: firstName' /></p>
+        <p>MiddleName: <input data-bind='value: middleName' /></p>
+        <p>LastName: <input data-bind='value: lastName' /></p>
+        <p>Address: <input maxlength="200" data-bind='value: address' /></p>
+        <h2>Mailing Address: <span data-bind='text: fullAddress'> </span></h2>
+    </div>
+    <script src="Employee.js"></script>
+</body>
+
+</html>

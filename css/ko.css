@@ -1,0 +1,35 @@
+﻿body {
+    font-family: arial;
+    font-size: 14px;
+}
+
+.koExample {
+    padding: 1em;
+    background-color: #EEEEDD;
+    border: 1px solid #CCC;
+    max-width: 655px;
+}
+
+.koExample input {
+    font-family: Arial;
+}
+
+.koExample b {
+    font-weight: bold;
+}
+
+.koExample p {
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
+}
+
+.koExample select[multiple] {
+    width: 100%;
+    height: 8em;
+}
+
+.koExample h2 {
+    margin-top: 0.4em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
